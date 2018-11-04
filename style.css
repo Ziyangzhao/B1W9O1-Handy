@@ -1,3 +1,170 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Archivo', sans-serif;
+}
+
+p, h1{
+	font-family: 'Archivo', sans-serif;
+}
+
+nav{
+    margin-left: 25px;
+    z-index: 1;
+    position: relative;
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+    width: 950px;
+}
+
+li{
+    float: left;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #111;
+}
+
 #logo{
-	
+	margin-left: 95px;
+    margin-top: 20px;
+}
+
+#header{
+	width: 100%;
+	position: relative;
+	background-size: cover; 
+	background-position: center center;
+	z-index: 0;
+    bottom: 45px;
+}
+
+.webpage{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    margin-left: 40px;
+    grid-gap: 20px;
+}
+
+.banner1{
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.banner2{
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.banner3{ 
+    grid-column-start: 3;
+    grid-column-end: 3;  
+}
+
+
+
+#yellowbar{
+    background-color: #ffe718;
+    width: 100%;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: 650px 150px 250px 200px;
+    position: relative;
+}
+
+.oplossingen{
+    font-size: 34px;
+    font-weight: 700;
+    margin-left: 225px;
+}
+
+.dieechtwerken{
+    margin-top: 50px;
+}
+
+.meerweten{
+    grid-column-start: 4;
+    grid-column-end: 4;
+    background-color: white;
+    padding: 10px 40px;
+    height: 10px;
+    line-height: 10px;
+    width: 100px;
+    text-align: center; 
+    margin-top: 40px;
+} 
+
+#footer{
+    width: 100%;
+    position: relative;
+    background-size: cover; 
+    background-position: center center;
+    bottom: 45px;
+    margin-top: 100px;
+}
+
+.grid3{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    margin-left: 200px;
+    grid-gap: 20px;
+}
+
+.deals{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    background-color: #ffe718;
+    padding: 20px 40px;
+    height: 10px;
+    line-height: 10px;
+    width: 100px;
+    text-align: center; 
+    margin-top: 40px;
+    grid-gap: 10px;
+}
+
+.diensten{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    background-color: #ffe718;
+    padding: 20px 40px;
+    height: 10px;
+    line-height: 10px;
+    width: 100px;
+    text-align: center; 
+    margin-top: 40px;
+    grid-gap: 10px;
+}
+
+.contact{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    background-color: #ffe718;
+    text-align: center; 
+    margin-top: 40px;
+    grid-gap: 10px;
 }
